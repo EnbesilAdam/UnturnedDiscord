@@ -10,6 +10,8 @@ This Plugin Has English Text.
 
 You Can Change The URL , This One Is For Test.
 
+If You Gonna Copy The Code Press Code And Copy For Good Reasons:)
+
 If You Need Any Help:
 
 Discord: enbest
