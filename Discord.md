@@ -16,7 +16,6 @@ namespace DiscordPlugin
             Console.WriteLine("[Discord] Loaded", Console.ForegroundColor = ConsoleColor.Magenta);
         }
     }
-
     public class DiscordCommand : IRocketCommand
     {
         public AllowedCaller AllowedCaller => AllowedCaller.Player;
