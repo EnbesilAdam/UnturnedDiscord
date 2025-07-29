@@ -16,21 +16,20 @@ namespace DiscordPlugin
             Console.WriteLine("[Discord] Loaded", Console.ForegroundColor = ConsoleColor.Magenta);
         }
     }
-    
     public class DiscordCommand : IRocketCommand
     {
         public AllowedCaller AllowedCaller => AllowedCaller.Player;
-        
+        //
         public string Name => "discord";
-        
+        //    
         public string Help => "Shows Discord URL";
-        
+        //     
         public string Syntax => "/discord";
-        
+        //
         public List<string> Aliases => new List<string>();
-        
+        //
         public List<string> Permissions => new List<string>();
-        
+        //
         public void Execute(IRocketPlayer caller, string[] command)
         {
             if (caller is UnturnedPlayer player)
